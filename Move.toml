@@ -1,6 +1,7 @@
 [package]
 name = "binks"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
+published-at = "0xc288caf405af52affcff65150c81e1c584453c0c13cbf3a938f51282a37e7031"
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
 
@@ -17,8 +18,6 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 # To resolve a version conflict and force a specific version for dependency
 # override use `override = true`
 # Override = { local = "../conflicting/version", override = true }
-
-published-at = "0xc288caf405af52affcff65150c81e1c584453c0c13cbf3a938f51282a37e7031"
 
 [addresses]
 binks = "0xc288caf405af52affcff65150c81e1c584453c0c13cbf3a938f51282a37e7031"
