@@ -1,6 +1,5 @@
 module binks::binks;
 
-
 use sui::coin::{Self};
 use sui::url::{Url, Self};
 
