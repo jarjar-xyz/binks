@@ -18,6 +18,8 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 # override use `override = true`
 # Override = { local = "../conflicting/version", override = true }
 
+published-at = "0xc288caf405af52affcff65150c81e1c584453c0c13cbf3a938f51282a37e7031"
+
 [addresses]
 binks = "0xc288caf405af52affcff65150c81e1c584453c0c13cbf3a938f51282a37e7031"
 
